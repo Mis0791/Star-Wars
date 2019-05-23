@@ -42,7 +42,7 @@
     color: white
 }
 .gender{
-    padding: 5px 0px 5px 15px;
+    padding: 20px 0px 0px 15px;
     width: 650px;
     height: 100px;
     text-align: right;
@@ -70,8 +70,14 @@
 .startext{
     font-family: Montserrat;
     display:inline-block;
+    color: rgb(184, 184, 185);
 }
 
 #resultCount{
     float:left;
+
+}
+button{
+    font-family: Montserrat;
+    color: white;
 }
