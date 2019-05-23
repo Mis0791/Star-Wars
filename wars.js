@@ -44,7 +44,7 @@ function outputResults()
         output = output + "<th>" + keysNiceNames[k] + "</th>";
     }
     output += "</tr>";
-    $("#resultCount").html(Object.keys(results).length + " Results");
+    $("#resultCount").html(Object.keys(results).length + " RESULTS");
     for (k in Object.keys(results))
     {
         output += "<tr>";

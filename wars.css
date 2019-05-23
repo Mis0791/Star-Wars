@@ -57,13 +57,21 @@
     box-shadow: 1px 2px 4px rgba(146, 143, 143, 0.5);
     border: white;
     background-color:   white;
+    font-family: Montserrat;
+    color: black;
+    font-weight: bold;
+
 }
 #results{
     width: 650px;
     height: 300px;
+    padding: 45px 0px 0px 15px;
     border-radius: 4px;
-    text-align: left;
+    text-align: center;
+    table-layout: auto;
+    width: 100%;
     border: white;
+    display: inline-block;
     background-color:   white;
     box-shadow: 1px 2px 4px rgba(146, 143, 143, 0.5);
 }
@@ -71,6 +79,7 @@
     font-family: Montserrat;
     display:inline-block;
     color: rgb(184, 184, 185);
+    font-size: 16px;
 }
 
 #resultCount{
