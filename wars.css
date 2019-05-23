@@ -44,8 +44,9 @@
 .gender{
     padding: 20px 0px 0px 15px;
     width: 650px;
-    height: 100px;
+    height: 55px;
     text-align: right;
+    margin-top: 50px;
 }
 #filter{
     margin: 9px 14px 0px 10px;
@@ -65,10 +66,9 @@
 #results{
     width: 650px;
     height: 300px;
-    padding: 45px 0px 0px 15px;
+    padding: 45px 0px 0px 0px;
     border-radius: 4px;
     text-align: center;
-    table-layout: auto;
     width: 100%;
     border: white;
     display: inline-block;
@@ -84,9 +84,13 @@
 
 #resultCount{
     float:left;
-
+    margin-top: 20px;
 }
 button{
     font-family: Montserrat;
     color: white;
+}
+table{
+    text-align: center;
+    table-layout: auto;
 }

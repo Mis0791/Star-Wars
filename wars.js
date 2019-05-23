@@ -36,8 +36,8 @@ function outputResults()
     let keys;
     let output = "<table><tr>";
     //keys = Object.keys(results[0]);
-    keys = ["name", "skin_color", "eye_color", "gender"];
-    keysNiceNames = ["Name", "Skin Color", "Eye Color", "Gender"]
+    keys = ["name", "hair_color", "eye_color", "gender"];
+    keysNiceNames = ["Name", "Hair Color", "Eye Color", "Gender"]
     console.log(keys);
     for(k in keys)
     {
