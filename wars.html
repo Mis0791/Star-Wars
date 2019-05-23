@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code Challenge</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="wars.css">
+    <script src="wars.js"></script>
+
+<main class="content">
+<head> 
+    <div id="wrapper"> 
+        <div class="search">
+            <input id="searchString" class="startext" type="text" placeholder="Search by character name">
+            <button id="names" id="white-text" class="startext" type="button" name="search" onclick="getResults(document.getElementById('searchString').value)">Search</button>
+        </div>
+    </head>
+    <body>
+        <div class="gender">
+            <p id="resultCount" class="startext">0 Results</p>
+            <p id="text1" class="startext">Gender</p>
+            <select id="filter">
+                <option value = "both">Filter by Gender</option>
+                <option value = "male">Male</option>
+                <option value = "female">Female</option>
+            </select>
+        </div>
+        <!-- This is the table that displays the results -->
+        <div id="results" class="startext"></div>
+    </div>
+</body>
+</main>
+</html>
